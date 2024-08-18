@@ -7,7 +7,9 @@ tailscale is required
 The program assumes the "tailscale status" command gives an output resembling the following:
 
 100.x.x.x  hostname1        test@         linux   -
+
 100.x.x.x  hostname2        test@         freebsd -
+
 100.x.x.x  hostname3        test@         windows -
 
 Usage:
