@@ -1,6 +1,8 @@
 # tailbash
 Tailbash is a simple bash script modifying /etc/hosts based on the "tailscale status" output.
 
+It gracefully updates the /etc/hosts file by removing old lines it created upon every run. 
+
 awk is required, tailscale is required.
 
 The program assumes the "tailscale status" command gives an output resembling the following:
